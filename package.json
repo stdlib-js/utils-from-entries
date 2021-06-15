@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-from-entries",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create an object from key-value pairs.",
   "license": "Apache-2.0",
   "author": {
