@@ -104,6 +104,12 @@ var obj2 = objectFromEntries( entries );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/utils/entries`][@stdlib/utils/entries]: return an array of an object's own enumerable property key-value pairs.
+
 </section>
 
 <!-- /.related -->
@@ -164,6 +170,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-from-entries/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/utils/entries]: https://github.com/stdlib-js/utils-entries
+
+<!-- </related-links> -->
 
 </section>
 
