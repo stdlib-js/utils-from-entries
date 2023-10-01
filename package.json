@@ -41,10 +41,10 @@
     "@stdlib/string-format": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/assert-is-plain-object": "^0.0.7",
+    "@stdlib/assert-is-plain-object": "^0.1.0",
     "@stdlib/bench": "^0.1.0",
-    "@stdlib/random-base-randu": "^0.0.8",
-    "@stdlib/utils-entries": "^0.0.8",
+    "@stdlib/random-base-randu": "^0.1.0",
+    "@stdlib/utils-entries": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
