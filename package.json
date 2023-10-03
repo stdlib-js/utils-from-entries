@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-from-entries",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Create an object from key-value pairs.",
   "license": "Apache-2.0",
   "author": {
@@ -37,8 +37,8 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-array-array": "^0.1.0",
-    "@stdlib/string-format": "^0.1.0"
+    "@stdlib/assert-is-array-array": "^0.1.1",
+    "@stdlib/string-format": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/assert-is-plain-object": "^0.1.0",
