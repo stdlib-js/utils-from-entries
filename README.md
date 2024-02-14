@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import objectFromEntries from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-from-entries@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-from-entries/tags). For example,
+
+```javascript
 import objectFromEntries from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-from-entries@v0.2.0-esm/index.mjs';
 ```
 
@@ -79,7 +84,7 @@ var obj = objectFromEntries( entries );
 <script type="module">
 
 import objectEntries from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-entries@esm/index.mjs';
-import objectFromEntries from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-from-entries@v0.2.0-esm/index.mjs';
+import objectFromEntries from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-from-entries@esm/index.mjs';
 
 var obj1 = {
     'beep': 'boop',
