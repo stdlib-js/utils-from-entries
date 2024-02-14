@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+objectFromEntries = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-from-entries@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-from-entries/tags). For example,
+
+```javascript
 objectFromEntries = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-from-entries@v0.2.0-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var objectFromEntries = require( 'path/to/vendor/umd/utils-from-entries/index.js
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-from-entries@v0.2.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-from-entries@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -101,7 +106,7 @@ var obj = objectFromEntries( entries );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-entries@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-from-entries@v0.2.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-from-entries@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
