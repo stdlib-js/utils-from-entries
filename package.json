@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-from-entries",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Create an object from key-value pairs.",
   "license": "Apache-2.0",
   "author": {
@@ -38,8 +38,8 @@
   },
   "dependencies": {
     "@stdlib/assert-is-array-array": "^0.2.1",
-    "@stdlib/string-format": "^0.2.1",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
+    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-plain-object": "^0.2.1",
