@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import objectFromEntries from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-from-entries@esm/index.mjs';
+import objectFromEntries from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-from-entries@v0.2.2-esm/index.mjs';
 ```
 
 #### objectFromEntries( entries )
@@ -79,7 +79,7 @@ var obj = objectFromEntries( entries );
 <script type="module">
 
 import objectEntries from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-entries@esm/index.mjs';
-import objectFromEntries from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-from-entries@esm/index.mjs';
+import objectFromEntries from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-from-entries@v0.2.2-esm/index.mjs';
 
 var obj1 = {
     'beep': 'boop',
